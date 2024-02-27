@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #ccc;
+
+}
+
+.hero{
+    background-image: url(../imagens/bg-2.jpg);
+    background-size: cover;
+    height: 500px;
+    background-position: bottom center;
+    padding-top: 1px;
+}
+
+.conteudo-cabeca{
+    margin: 80px auto 0;
+    width: 80%;
+    text-align: center;
+}
+
+.conteudo-cabeca h1{
+    color: white;
+    font-size: 56px;
+    text-shadow: 2px 2px 2px black;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.conteudo-cabeca p{
+    background-color: rgba(0, 0, 0, 0.7);
+    font-size: 18px;
+    color: white;
+    display: inline-block;
+    padding: 12px;
+    border-bottom: 3px solid white;
+
+}
+
+.hero nav ul{
+    margin: 20px 50px 0 0;
+    text-align: right;
+}
+
+.hero nav li{
+    display: inline-block;
+    list-style-type: none;
+    border: 1px solid white;
+    margin-left: 16px;
+
+
+}
+
+.hero nav a{
+    background-color: rgba(0, 0, 0, 0.7);
+    padding:16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    display:block;
+    color: white;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.hero nav a:hover{
+    background-color: rgba(0, 0, 0, 0.3);
+
+}
+
+main{
+    width:90%;
+    margin:auto;
+    min-width: 600px;
+    max-width: 860px;
+}
+
+section{
+    padding-top: 32px;
+}
+
+article{
+    background-color: white;
+    padding:16px;
+    margin-bottom: 32px;
+}
+
+h2{
+    background-color: #ccc;
+    margin-top: 0;
+    width: 12%;
+    padding: 3px 6px 3px; 
+    border-bottom: 2px solid #4e4a4af5;
+    border-radius: 6px;
+}
+
+.pss{
+    background-color: #ccc;
+    margin-top: 0;
+    width: 10%;
+    padding: 3px 6px 3px; 
+    border-bottom: 2px solid #4e4a4af5;
+    border-radius: 6px;
+}
+
+.pj{
+    background-color: #ccc;
+    margin-top: 0;
+    width: 18%;
+    padding: 3px 6px 3px;  
+    border-bottom: 2px solid #4e4a4af5;
+    border-radius: 6px;
+}
+
+a.btn {
+    background-color: #cdc7c3;
+    display: block;
+    padding: 10px;
+    border-radius: 6px;
+    text-align: center;
+    margin-left: auto;
+    width: fit-content;
+    color: rgb(50, 0, 233);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    
+}
+
+a:hover.btn{
+    background-color: #4e4a4af5;
+}
+
+
+
+.rodape {
+    color:white;
+    background-color: #7a7876;
+    text-align: center;
+    padding:30px;
+    text-shadow: 2px 2px 2px black;
+    letter-spacing: 2px;
+}
