@@ -1,0 +1,238 @@
+
+:root{
+    --primary-color: #FED001;
+}
+
+html{
+    /* font-size: 62.5%;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400px; */
+    font: 400 62.5% 'Inter', sans-serif;
+}
+
+p,a{
+    font-size: 1.6rem;
+}
+
+h1{
+    font-size: 4.8rem;
+}
+
+h2{
+    font-size: 4rem;
+}
+
+h3{
+    font-size: 3.2rem;
+}
+
+nav a{
+    color: inherit;
+}
+
+.btn{
+    display: inline-block;
+    background-color: var(--primary-color);
+    border-radius: 4px;
+    font-size: 1.8rem;
+    text-decoration: none;
+    padding: 1.6rem 4.4rem;
+    color: inherit;
+    font-weight: bold;
+}
+
+
+.upper{
+    text-transform: uppercase;
+}
+
+.wrapperContainer{
+    padding-top:1px;
+}
+
+.wrapperContainer-dark{
+    background-color: #2a2a2a;
+    color: white
+}
+
+
+.wrapperContainer-light{
+    background-color: #fafafa;
+
+}
+.wrapperContainer-dark2{
+    background-color: #003464;
+    color: white;
+
+}
+
+.wrapperContainer-dark2 .section_content{
+    padding-bottom: 8rem;
+}
+
+.wrapperContainer-dark2 .nossa_escola {
+    margin-top: 7rem;
+}
+
+.wrapperContainer-fixed{
+    position: sticky;
+    width: 100%;
+    top: 0;
+    left: 0;
+
+}
+
+.wrapperContainer-padded{
+    padding-top: 12rem;
+}
+
+.wrapperContainer-padded-banner{
+    position: inherit;
+    padding-top: 12rem;
+}
+
+.container{
+    max-width: 127.6rem;
+    margin:auto;
+}
+
+.section_titulo{
+    padding: 3.5rem 0;
+    text-align: center;
+}
+
+.section_btn{
+    margin: 7rem 0;
+
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--primary-color);
+    padding: 2rem 0;
+}
+
+/*1 em= 16 pixels e 1rem= 10 pixels*/
+
+.header_nav a{
+    padding: .75em 1.15em;
+    border: solid 1px;
+    text-decoration: none;
+}
+
+.header_nav ul{
+    display: flex;
+    gap: .6rem;
+    list-style-type: none;
+}
+
+.header_nav a:hover{
+    background-color: black
+
+}
+
+.wrapperContainer-hero{
+    /*background-color: var(--primary-color);*/
+    background-image: linear-gradient(transparent, rgb(245, 223, 97));
+}
+
+
+.heroBanner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20rem;
+}
+
+.slogan_banner{
+    margin-bottom: 4rem;
+
+}
+
+.cursos{
+    text-align: center;
+}
+
+.cursosContainer{
+   display: flex; 
+   gap: 2rem;
+   text-align: left;
+}
+
+.cursos_cards{
+    /*border: 1px solid #c0c0c0;
+    border-radius: 10px;
+    overflow: hidden;*/
+    /*flex-grow:1, flex-shriks, flex-basis*/
+    flex:1;
+}
+
+.cursos_cards img{
+    display: block;
+    width: 100%;
+}
+
+.cursos_cards h3{
+  font-size: 2.4rem;
+}
+
+.cursos_cards p{
+    font-size: 1.8rem;
+    line-height: 1.5;
+}
+
+.cursos_cards_content{
+    padding: 1rem 1.25rem;
+    border: 1px solid #ccc;
+    border-radius: 0 0 8px 8px;
+    border-top: transparent;
+    
+}
+
+.section_content h2{
+    margin-top: 0;
+    padding: 0;
+}
+
+.nossa_escola{
+    display: flex;
+    gap:8rem;
+    justify-content: space-between;
+}
+
+.escola_title{
+    font-size: 3.2rem;
+    margin-top: 0;
+    
+}
+
+.nossa_escola p{
+    line-height: 1.5;
+    font-size: 1.8rem;
+    margin-right: 0;
+}
+
+.informacao_content{
+    font: normal 400 1.6rem "Inter", sans-serif;
+    text-align: right;
+    margin: 3rem 0;
+    
+}
+
+.rodape{
+    text-align: center;
+    font:normal 400 1.6rem "Inter", sans-serif;
+    padding: 5rem;
+}
+
+.rodape a{
+    color: inherit;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+
